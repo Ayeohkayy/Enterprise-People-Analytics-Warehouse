@@ -41,6 +41,13 @@ The warehouse follows a dimensional modeling approach:
 - vw_engagement_by_department
 - vw_engagement_vs_performance
 
+
+## Architecture
+
+Raw CSV Data → Staging Tables → Dimension & Fact Tables → SQL KPI Views → Power BI Dashboard
+
+
+
 ## Dashboard Preview
 
 ### Executive Overview
@@ -69,7 +76,7 @@ Sales (Performance: 3.39, Engagement: 3.50) and Executive (3.30, 3.78) show lowe
 
 ### Attrition Risk Areas
 
-Attrition is highest in Sales (12.2%), Marketing (11.6%), and Customer Support (10.8%), significantly above the company average of 8.62%, highlighting these as key risk areas for retention.
+ **Sales (12.2%)**, **Marketing (11.6%)**, and **Customer Support (10.8%)** show the highest attrition rates, exceeding the company average of **8.62%**
 
 ### Compensation Insights
 
